@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="menu-1">
+    <div class="menu-2">
+      <ul class="menu">
+        <li>HOME</li>
+        <li><a href="#!">BLOG</a></li>
+        <li>Email</li>
+        <li>TÀI LIỆU</li>
+        <li>E-learning</li>
+      </ul>
+    </div>
+  </div>
+  <div class="marginauto">
+    <h1 class="none"> <a href="app.jsx" target="_blank" id="testh1" class="testtarget">Blog bảo trì</a> - build </h1>
+    <h2>Chương 9 - img </h2>
+    <p> không sử dụng các hình ảnh có kích thước lớn hơn mức sử dụng </p>
+    <p>nên để kích thước img x2, để display đẹp on màn hình hd</p>
+    <p>Khi tối ưu về kích thước ảnh PNG, using <a href="https://tinypng.com/" target="_blank">Web tinypng</a></p>
+    <p>using nguồn <a href="https://unsplash.com/" target="_blank">ảnh đẹp miễn phí</a></p>
+    <p>không nên sử dụng các tài nguyên ngoài, tránh web đó sập ảnh bị lỗi display</p>
+    <p>thẻ <strong>FIGURE - sử dụng để bổ sung ngữ nghĩa cho img,biểu đồ,hình vẽ</strong></p>
+    <p>không using cho avt,img mang tính trang trí,banner quảng cáo</p>
+    <p>thẻ <strong>FIGCAPTION - using để chú thích cho thẻ img, LUÔN LUÔN nằm trong figure</strong></p>
+    <h2>Chương 10 - Tra cứu thẻ HTML</h2>
+    <p>using <a href="https://htmlreference.io/" target="_blank">để tra cứu HTML nhé !</a></p>
+    <p>using <a href="https://www.w3schools.com/" target="_blank">W3school</a> để tra cứu các thẻ chuyên sâu, ví dụ như src sử dụng cho thẻ nào, thẻ nào </p>
+    <h2>Chương 11 - COMMENTS and BLANK SPACE</h2>
+    <p><!-- Crt + / --> Crt + / để chú thích</p>
+    <p>thẻ PRE - định dạng sẵn, sử dụng khi muốn giữ nguyên văn bản(khoảng cách, dấu cách)</p> <br>
+    <p>thẻ PRE có độ rộng chữ cố định, tất cả chữ bằng nhau</p>
+    <p>HTML ENTITIES - sử dụng cho các kí tự đặc biệt và trùng, ví dụ muốn viết thẻ i mà không bị in nghiêng, & l t ; i & l t ; </p>
+    <p>TRA CỨU HTML ENTITIES - <a href="https://www.w3.org/" target="_blank">w3s,</a>example: &copy;2021 - 2024 bản quyền hoặc <a href="https://www.w3schools.com/">sử dụng we3school</a></p>
+    <p>NON - BREAKING SPACE ENTITY - sử dụng để tránh 2 từ đi với nhau bị xuống dòng - bị break</p>
+    <p>CODE - dùng để đi kèm với HTML ENTITIES hoặc một đoạn CODE(đi kèm pre)</p>
+    <h2>Chương 12 - tính hợp lệ của HTML</h2>
+    <p>using <a href="https://validator.w3.org/nu/#textarea">w3c validator</a> để check nhé</p>
+    <p>thẻ tùy chỉnh (app- (icon,toats)) - đóng gói một tính năng và sử dụng nhiều lần </p>
+    <h1>Phần 2: CSS</h1>
+    <h2>Chương 13: làm quen với CSS</h2>
+    <p>using <a href="https://www.favicon-generator.org/">generate favicon online</a>để tạo nhiều ảnh logo phù hợp nhiều thiết bị</p>
+    <p> cách tạo mộ danh sách để chuyển đổi các trang(sử dụng thẻ a href tới thư mục): </p>
+    <p>example: <a href="chuyendoi.html" target="_blank">new tab</a></p>
+    <p>tiền tố PREFIX - sử dụng để đi sau các hàm có khả năng không hỗ trợ trên trình duyệt khác </p>
+    <p class="PREFIX">example: thẻ  user-select(không cho người dùng bôi đen)</p>
+    <p>thẻ này cần sử dụng các tiền tố như webkit,o,os để hỗ trợ các trình duyệt, hãy sử dụng <a target="_blank" href="https://autoprefixer.github.io/">CSS autoprefixer</a>để tự động tạo tiền tố prefix</p>
+    <p>use <a href="https://cssreference.io/" target="_blank">CSS REFERENCE</a> để tra cứu thuộc tính css</p>
+    <p>20/80. sử dụng <a href="https://caniuse.com/" target="_blank">caniuse</a>để tra cứu những thuộc tính css có dùng để hỗ trợ trình duyệt hay không (vd:felix)</p>
+    <h2>Chương 2: tính thừa kế trong CSS</h2>
+    <p>sử dụng từ khóa <strong>CSS + thuộc tính + Property</strong> để tra cứu xem có thể "KẾ THỪA CSS"hay không</p>
+    <h2>Chương 15: thẻ inline và thẻ block</h2>
+    <p class="testopacity">thuộc tính opacity ( độ mờ đục) opacity {0-1,1%-100%} hiện tại là 0.5</p>
+    <p>sử dụng <strong>background-img để tạo ảnh nhìn xuyên qua opacity và dùng background-size: cover(che phủ) để chỉnh ảnh giữa đẹp </strong></p>
+    <p>thuộc tính  <strong>visibility (khả năng hiển thị)</strong> : hidden dùng để ẩn</p>
+    <p>sự khác biệt giữa opacity và visibility là gì ? OPACITY có thể tương tác, còn visibility ẩn luôn</p>
+    <p>còn <strong>display, visibility và opacity</strong> khác gì nhau ? </p>
+    <p>display xóa bỏ hoàn toàn, không chiếm không gian</p>
+    <p>visibility ẩn đi, vẫn chiếm không gian</p>
+    <p>opacity làm trong suốt, vẫn chiếm không gian</p>
+    <p><strong>vậy khi nào ta dùng display,visibility và opaccity</strong></p>
+    <h2>Chương 16: Css Selectors cơ bản</h2>
+    <p>Css là bộ chọn các bộ cú pháp tác động css</p> 
+    <p>tra cứu <a href="https://www.w3schools.com/cssref/css_selectors.php">css celectors</a> tại đây</p>
+    <p>tra cứu <a href="https://www.w3schools.com/cssref/css_ref_pseudo_classes.php">Css pseudo classes</a> IMPORTANT, this is 20/80, often use when work</p>
+    <p> <strong>test-decoration:none;</strong> để xóa bỏ gạch chân của thẻ a</p>
+    <p id="testhover"><strong>class:hover</strong> dùng để dổi màu,.. khi người dùng di chuột vào </p>
+    <p id="testactive"><strong>class:active</strong> dùng để đổi màu khi click vào</p>
+    <p class="testlink"><strong>class:link</strong>dùng để đổi màu khi <a href="">chưa truy cập</a>(xanh)</p>
+    <p><strong>class:visited</strong>dùng để đổi màu khi <a href="http://www.facebook.com/thukhoakt" class="testvis">đã truy cập</a>(tím)</p>
+    <p><strong>class:empty</strong>tạo background-img cho một box trống</p>
+    <p><strong>claass:target</strong> dùng để phối hợp đổi màu với thuộc tính link a href #class</p>
+    <p>example: <a href="#testh1">click vào đây</a></p>
+    <div class="div1">
+      <p class="idtest"><strong id="num">element:First:child</strong> dùng để css cho tất cả thẻ con đầu tiên</p>
+    </div>
+    <p>ngược lại với <strong>first-child</strong> là <strong>last-child</strong></p>
+    <p><strong>element:nth-child(n)</strong> dùng để css cho phần tử thứ n hoặc odd(lẻ) hoặc even(chẵn)</p>
+    <p><strong>only-child</strong> chỉ tác dụng khi chỉ có 1 thẻ con duy nhất</p>
+    <p><strong>element:first-of-type</strong>dùng để css cho phần tử đầu tiên, giống <strong>firt-child </strong>nhưng không bị ghi đè bởi các thẻ khác như h1</p>
+    <p>tương tự như vậy ta có <strong>last-of-type</strong></p>
+    <p><strong>nth-of-type(n)</strong> khác nth-child ở chỗ là khi chèn các thẻ như h1 vào không bị hỏng số tt</p>
+    <p><strong>class:only-of-type</strong>khác only0child một chỗ, chỉ một loại element được xuất hiện 1 lần </p>
+    <div class="canchinh">
+      <p><strong>not Selectors</strong>dùng để loại trừ các thẻ sử dụng Css</p>
+      <p class="">example: có 3 thẻ cùng class="testnot"</p>
+      <ul>
+        <li class="testnot">test1</li>
+      </ul>
+      <p class="testnot">loại trừ</p>
+      <h4 class="testnot">hello world</h4>
+    </div>
+    <p>Độ ưu tiên của CSS: inline > id > class > element > *</p>
+    <p>tuy nhiên, sử dụng <strong>!important</strong> sẽ khiến cho css mạnh nhất!</p>
+    <h2>Chương 17: Đệm, Viền, Khoảng lề</h2>
+    <p>border nét tròn <strong>dotted</strong>và border nét đứt <strong>dashed</strong></p>
+    <p>thuộc tính <strong>transparent</strong>tạo màu trong suốt </p>
+    <p><strong>outline</strong> tương tự như border nhưng là một lớp cao hơn toàn bộ, sẽ che phủ được thẻ block mà không bị đẩy </p>
+    <p>dùng <strong>outline-offset</strong> để tạo viền như này</p>
+    <div id="box5"></div>
+    <p>hello</p>
+    <p>box-sizing:content box and borer box</p>
+    <p><strong>box-sizing:border box (20/80) </strong>được sử dụng trong nhiều trang web</p>
+    <h2><strong>đơn vị trong CSS (CSS Unit)</strong></h2>
+    <p>pixel là một ô vuông, cấu tạo lên màn hình</p>
+    <p><strong>vh</strong> là viewport height còn <strong>vw</strong> là viewport weight(chiều rộng)</p>
+    <p><strong>quan trọng: VH và VW đơn vị là %</strong></p>
+    <p><strong>em</strong> phụ thuộc vào font-size, sử dụng cho các giao diện tăng dần, sử dụng để giữ nguyên tỉ lệ từng chi tiết</p>
+    <p><strong>quan trọng: khi thẻ cha có font-size: 2em có nghĩ là 32px, thẻ con css là width: 2em thì có nghĩa là 64px ote!!!</strong></p>
+    <p><strong>REM</strong> phụ thuộc vào font size của HTML</p>
+    <p><strong>REM</strong> được sử dụng để khi người dùng sử dụng font chữ lớn, web sẽ tăng theo kích thước, tối ưu fix web hơn, chỉ cần sử trên html</p>
+    <p>nếu phải chọn giữa em và rem hầu hết các web sẽ sửng dụng REM</p>
+    <p>tóm lại</p>
+    <div class="cssunit1">
+      <ul class="cssunittest">
+        <li>đối với px, không phù hợp khi phổ biến cho cả mobile,vì tính tuyệt đối của px, tuy viên với các border 1px làm viền, vẫn có thể sử dụng</li>
+        <li><strong>%</strong> ăn theo % của phần tử cha</li>
+        <li><strong>vh và vw</strong> ăn theo chiều cao và rộng của trình duyệt</li>
+        <li><strong>em</strong> sử dụng ít, vì tính thay đổi font size</li>
+        <li><strong>REM(20/80)</strong> sử dụng nhiều trong thực tế. cố định với font size của html</li>
+      </ul>
+    </div>
+    <h2>Chương 19: Worrk with Color in CSS</h2>
+      <p><strong>RGB</strong>là viết tắt của <strong>Reg,Green,Blue</strong></p>
+      <p><strong>RGBa, a còn gọi là alpha</strong> là thêm độ mờ đục, có vẻ tương tự opaccity</p>
+      <p>nhị phân:0,1; thập phân: 0-9; thập lục phân: 0-9,abcdef</p>
+      <p><strong>HEX</strong> hay còn gọi là mã màu thập lục phân</p>
+      <p><strong>selecter css color: Currrentcolor </strong>dùng để ăn theo các css color gần nhất</p>
+      <p>Currrentcolor cũng giống như rem, được sử dụng để chỉnh sửa 1 lần cho tiện đó</p>
+      <p>công cụ của <a href="https://fullstack.edu.vn/html-colors-tool" style="text-decoration: none;">F8 để thiết kế màu</a></p>
+      <p><strong>cách đổi RGB sang HEX</strong></p>
+      <div class="cssunit1">
+        <p>ta có 8bit: 256,cách đổi là lấy số RGB / 16, nếu không còn chia được nữa thì %, còn alpha thì thêm 1 bước đầu tiên là * 255</p>
+        <p>ví dụ: RGB(175,0,0), ta lấy 175 / 16 == 10 dư 15</p>
+        <p>-> 10 là A 15 là F vậy #af0000</p>
+      </div>
+      <p><strong>transparent</strong> dùng để trong suốt tương đương alpha = 0</p>
+      <p>HEX(20/80) thực tế nếu có alpha thì dùng RGB còn không sẽ là HEX</p>
+      <h2>Chương 20: Work with Background</h2>
+      <p>thuộc tính background-repeat (lặp lại) dùng để ngăn, tạo lặp lại ngang hoặc dọc</p>
+      <p>background-repeat: repeat-x(y); no-repeat</p>
+      <p>ứng dụng của <strong>background-repeat</strong> là để lặp lại các hoa văn(giống nền nhà)</p>
+      <p>ảnh đặc biệt <strong>background-image: linear-gradient</strong></p>
+      <p>direction (hướng), to right,to left,to top,to bottom left, to top left</p>
+      <p>stop(dừng), ví dụ từ đỏ tới xanh, red 30% là 30% đầu không chuyển màu, green 70& là 70% trở lên không chuyển màu(dưới)</p>
+      <p>use <a href="https://cssgradient.io/gradient-backgrounds/">Css gradient</a> để lấy màu đẹp nhé </p>
+      <div class="bgi"></div>
+      <p><strong>background-size</strong> cover dùng để lấp đầy kích thước phần tử, khi hình to quá sẽ co lại cho phù hợp</p>
+      <p><strong>background-size</strong> contain dùng để lấy toàn bộ hình ảnh, điểm yếu là để lại phần thừa, vì không lấp đầy</p>
+      <p><strong>tóm lại, cover sẵn sàng mất đi nhưng phải lấp đầy, còn contain thì phải đủ,k cần đầy</strong></p>
+      <p><strong>background-Position(vị trí)</strong> dùng để căn chỉnh vị trí, bottom left,top left,top right, left center,bottom center, center center</p>
+      <p><strong>background-position</strong>cũng có thể sử dụng <strong>% theo x y</strong>, sử dụng dev tool để căn chỉnh đẹp hoặc sử dụng <strong>px</strong></p>
+      <p id="likecmtfb">background-position sử dụng để làm icon cho facebook đó !</p>
+      <p><strong>background-attachment</strong> sử dụng để bổ trợ cho các thanh cuộn</p>
+      <p>scroll(cuộn) là giá trị mặc định (defaul)</p>
+      <p><strong>background-attachment:fixed;</strong> giữ nguyên hình ảnh khi cuộn xuống</p>
+      <p><strong>background-attachment:local;</strong> cuộn ảnh theo chữ, example ở dưới</p>
+      <p>attention!, sử dụng <strong>overflow auto</strong> để chữ được vào 1 ảnh</p>
+      <div class="cssunit1 check">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos cupiditate, explicabo eaque voluptatem aut modi dolor autem optio quas reprehenderit aliquid officia amet soluta facilis eligendi consequatur corporis reiciendis repellat!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius maxime totam accusantium perferendis distinctio odit fugiat magnam accusamus voluptates vero! Eveniet tempora alias eos id modi quisquam ducimus eius eligendi!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia architecto odio laudantium, ullam fugiat animi ratione voluptatum earum corrupti, expedita recusandae mollitia hic possimus provident cum impedit beatae molestiae qui.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, accusantium doloremque! Provident voluptatem saepe consectetur quaerat libero ad dolorum eligendi? Nam consectetur modi dolor mollitia! Voluptates, dolore at? Placeat, beatae.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, animi facilis? Atque quae veritatis, quasi at nesciunt corporis vero dolores saepe similique et tenetur, reprehenderit ipsa, accusantium dicta nihil accusamus!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, quos quasi officia labore, sunt ab quo at pariatur in voluptatum dolor voluptatem a. Labore libero nisi facere ad vel ut.
+        </p>
+      </div>  
+      <p><strong>background-clip</strong> dùng để đổ img vào đúng chỗ, content,border,padding</p>
+      <p>ở đây chúng tôi sẽ dùng ảnh đổ vào phần content bằng <strong>background-clip:content-box</strong></p>
+      <div class="bgc"></div>
+      <div class="cssunit1 bgct">
+        <p><strong>background-clip:text</strong> dùng để CSS cho text</p>
+        <p><strong>background-clip:text chưa được hỗ trợ tốt nên cần dùng tiền tố prefix, -webkit-</strong></p>
+        <p>lồng vào trong <strong>@support () or () {}</strong>, xem ví dụ bên dưới</p>
+        <p>hi guy,I'm <strong class="xinchao">John Duy</strong>, nice to meet you!</p>
+      </div>
+      <p><strong>background-origin(gốc)</strong> sử dụng để quyết định nền ảnh sẽ bắt đầu ở đâu, khác với <strong>background-clip:content box</strong> là quyết định hiển thị ở đâu</p>
+      <p><strong>background-short</strong> background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;</p>
+      <p><strong>backdrop-filter:blur</strong> (20/80) thường dùng là để làm mờ phần trang web, ví dụ ở dưới</p>
+      <div class="bgrf"></div>
+      <h2>Chương 21: Work with font</h2>
+      <p> họ chung (Generic family)</p>
+      <ul>
+        <li>Serif (có chân) 2nd, có chân định hướng người đọc, sử dụng cho bài viết dài, blog</li>
+        <li>Sans-serif (không chân) 1st (tiêu đề, phần lớn trang web sử dụng) </li>
+        <li>Monospace (độ rộng bằng nhau) 3rd, thẻ code được sử dụng cho font Monospace</li>
+      </ul>
+      <p>họ phông theo tên(font family:name)</p>
+      <ul> 
+        <li>Arial</li>
+        <li>Helvitical</li>
+        <li>Time new Roman</li>
+      </ul>
+      <p>system font</p>
+      <P>SỬ DỤNG <a href="https://css-tricks.com/snippets/css/system-font-stack/" target="_blank">CSS system font </a>để tìm font chữ hợp với từng trình duyệt</P>
+      <p>hiện tại trang web của tôi đang sử dụng system font css, bạn cũng cso thể kiểm tra các web khác như github</p>
+      <p>line-hight nên sử dụng theo đơn vị của font-size, font = 20, line hight:1 có nghĩa là 20, 2 có nghĩa là 40 </p>
+      <p>font-style:italic,font-variant(khác nhau, biến thể):small-caps(nhỏ-Hoa) đây là ví dụ</p>
+      <p class="text">heading(small caps)</p>
+      <p>HEADING normal</p>
+      <p><strong>thần chú viết tắt: * + shorthand + css</strong></p>
+      <p><strong>thuộc tính text-align căn theo độ rộng, thẻ a sẽ không hoạt động text align nếu không có display:block</strong> hoặc bạn có thể <strong>cho thẻ a vào thẻ div để nó kế thừa</strong></p>
+      <p><strong class="textudl">text:decoration:underline</strong></p>
+      <p><strong class="textltr">text:decoration:line-through</strong>, thường dùng để làm giá sale</p>
+      <p><strong class="text1">text:decoration:over-line</strong></p>
+      <p><strong class="textall">cũng có thể như này luôn</strong>, text-decoration:overline line-through underline;</p>
+      <p><strong>text-indent: xx px</strong> dùng để thụt lề đầu văn bản như viết văn</p>
+      <p>text:transform</p>
+      <ul>
+        <li>text:transform: lowercase, tất cả các chữ thành chữu cái thường</li>
+        <li>text:transform: uppercase, viết hoa hết</li>
+        <li>text:transform: capitalize, viết hoa tất cả các chữ cái đầu</li>
+      </ul>
+      <p><strong>white-space: nowrap</strong>không xuống hàng</p>
+      <p><strong>white-space: pre</strong>giống thẻ pre</p>
+      <p><strong>white-space: pre-line</strong>thẻ này có thể xuống hàng mà không bị chuyển thành 1 khoảng cách như bao thẻ khác</p>
+      <p><strong>white-space: pre-wrap</strong>chỉ nội dung giới hạn mới xuống hàng</p>
+      <p><strong>mình để bảng tóm tắt ở đây nhé</strong></p>
+      <p>1. nhiều khoảng trắng => 1 khoảng trắng</p>
+      <p>2. nhiều dấu xuống hoàng => 1 khoảng trắng</p>
+      <p>3. nội dung chạm tới giới hạn => xuống hàng</p>
+      <div class="cssunit1">
+        <p>normal: 1, 2, 3</p>
+        <p>nowrap: 1, 2</p>
+        <p>pre: </p>
+        <p>pre-line: 1, 3</p>
+        <p>pre-wrap: 3</p>
+        <p><strong>20/80 chính là nowrap,pre</strong></p>
+      </div>
+      <p><strong>word-break: break-all</strong>, tới giới hạn là bẻ, tránh content bị đẩy vỡ</p>
+      <p><strong>word-spacing: xx px</strong> tăng khoảng cách giữa các chữ cái</p>
+      <p><strong>text: shadow: left right - + , trên dưới + - , bóng đổ(px), color</strong> bóng đổ</p>
+      <p>nhưng thông thường chúng ta sẽ sử dụng web <a href="https://cssgenerator.org/text-shadow-css-generator.htm">CSS generator</a> để căn chỉnh</p>
+      <p><strong>text-overflow</strong> thuộc tính nhét hoặc ẩn chữ đi, đã từng được áp dụng chung với thuộc tính Css background-attachment</p>
+      <p style="background-color: aqua;" class="textover">đây là thẻ mẫu của text-overflow,Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nam dolor! Deseru</p>
+      <p>sử dụng thẻ <strong>white-space:nowrap</strong> (không xuống hàng), set width</p>
+      <p>nếu muốn cắt đi thì xài, <strong>text-overflow:clip</strong>, tạo dấu 3 chấm <strong>sử dụng overflow: hidden để ẩn đi sau đó text-overflow:ellipsis</strong></p>
+      <p>cách tạo dấu 3 chấm khi có nhiều dòng,hàng</p>
+<pre class="cssunit1 precode"><code class="precode">p {
+  set background trước để dễ nhìn, background-color: #ff0000;
+  display: -webkit-box; cho phép văn bản hiển thị dưới dạng hộp linh hoạt.
+  -webkit-line0-clamp: số dòng;
+  -webkit-box-orient: vertical( thăng đứng) Xác định hướng của các hộp theo chiều dọc ;
+  overflow:hidden
+}</code></pre>
+      <p><strong>thuộc tính text-rendering(kết xuất)</strong> dùng để tối ưu văn bản, có 2 rendering</p>
+      <p><strong>text-renderring: optimizespeed;</strong> dùng để hiển thị văn bản nhanh cho web nào sử dụng nhiều img và video(có thể không chính xác font chữ)</p>
+      <p><strong>text-rendering:optimizelegibility; </strong>tối ưu font chữ, dành cho web log,báo,... (font chữ chuẩn chính xác)</p>
+      <p>sử dụng <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering">text-rendering</a> để tra cứu thêm nhé</p>
+      <p><strong>khử răng cưa cho trang web bằng:</strong></p>
+<pre class="cssunit1 precode"><code>
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+</code></pre>
+      <p>tra cứu bằng <a href="https://developer-mozilla-org.translate.goog/en-US/docs/Web/CSS/font-smooth?_x_tr_sl=en&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=tc">-webkit-font-smoothing nhé</a></p>
+      <p>font Awesome (biểu tượng)</p>
+      <p><a href="https://cdnjs.com/libraries/font-awesome">link lấy CDN</a> để kết nối với font awesome</p>
+      <p><a href="https://fontawesome.com/icons">link lấy icon nhe</a> cần gì thì search</p>
+      <p>tối ưu hình ảnh trên trang web bằng <strong>loading="lazy"</strong> được sử dụng khi hình ảnh ở phía dưới, người dùng nếu đọc tới cuối mới load, để tránh load 1 lần chậm web</p>
+      <p>để căn chỉnh hình ảnh, sử dụng <strong>object-fit:cover</strong> (căn đẹp, sẽ cắt hình. thường được sử dụng) và <strong>object-fit:contain</strong> căn đủ hình ảnh nhưng sẽ bị thừa ra khoảng trắng, không lấp đầy</p>
+      <p>thuộc tính object-fit tương tự như background-size nhưng để sử dụng cho thẻ img không phải background-img</p>
+      <p>căn vị trí ảnh, object-fit:position</p>
+      <p>thuộc tính <strong>float: left/right</strong> cho <strong>img</strong> để căn chỉnh chữ uốn lượn xung quanh ảnh, example ở dưới</p>
+      <div class="content1">
+        <img src="https://cdnmedia.baotintuc.vn/Upload/G5r0l6AdtRt8AnPUeQGMA/files/2019/09/2409/bau-troi-Indonesia-do-ruc2.jpg" alt="máu sky">
+        <h3>why sky red ?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, atque recusandae, in voluptates facere facilis odit ad quibusdam explicabo reprehenderit totam. In nisi officiis deserunt delectus perspiciatis, rem expedita nemo.</p>
+      </div>
+      <p>vậy nên xài background-img hay img ?</p>
+      <p>nên xài img khi viết bài viết hoặc blog</p>
+      <ul>
+        <li>hỗ trợ in trang kèm hình ảnh</li>
+        <li>muốn google index hình ảnh ( đề xuất khi search)</li>
+        <li>là một phần nội dung</li>
+        <li>tôi ưu web, theo chuẩn w3c</li>
+      </ul>
+      <p>nên xài background-img cho việc trang trí, không có ý nghĩa, không muốn google index</p>
+      <ul>
+        <li>không muốn đưa vào bản in</li>
+        <li>Background-repeat (lặp lại)</li>
+        <li>Css prites, <a href="#likecmtfb">tính năng ảnh cmt,like,share của fb!</a></li>
+      </ul>
+      <p>cách hỗ trợ in và in màu ảnh trong background</p>
+      <pre class="cssunit1">
+        <code>
+          print-color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+        </code>
+      </pre>
+      <p>nhưng nếu chỉ muốn khi người dùng print mới sử dụng đến thẻ, thì thêm @media print {} lổng vào</p>
+      <p>ở trong @media có thể chỉnh thêm color,... để khi in giao diện có thể khác</p>
+      <h2>Chương 23: thuộc tính vị trí (position)</h2>
+      <p>position: static (mặc định )</p>
+      <p>position: Relative định vị tương đối so với vị trí gốc của nó</p>
+      <p><strong>position: absolute</strong> định vị so với thẻ cha</p>
+      <p><strong>position: fixed</strong> luôn hiển thị ở góc phải dưới màn hình</p>
+      <p><strong>position: sticky</strong> dính ở top khi cuộn trang</p>
+      <p>notification badge (huy hiệu thông báo)</p>
+      <div class="notification">
+        <i class="fa-solid fa-bell"></i>
+        <span class="badge">67</span>
+      </div>
+      <p>khi dùng <strong>position:fixed</strong> nếu muốn thanh menu cố định thì phải thêm đúng hướng (top,right,..:0)</p>
+      <p>khi muốn dùng <strong>position:fixed</strong> nằm ở giữa giống shopee, cho thẻ cha <strong>display:flex</strong> và set cho thẻ mang fixed <strong>margin:auto</strong></p>
+      <p>di chuột hiện bàn tay như thẻ a <strong>cursor(trỏ chuột):pointer(trỏ ngón tay)</strong></p>
+      <p><strong>z-index</strong> độ xếp trồng,đậm</p>
+      <p>prettier, extensions 20.80 để trình bày code đẹp</p>
+      <p>tạo file settings,json trong dự án</p>
+      <p>dán code</p>
+      <pre class="cssunit1">
+        <p class="checkloi">{
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }</p>
+      </pre>
+      <p<strong>>Crt + Shirt + i</strong> để open chat Github</p>
+      <p><strong>Default Setting (read only, không sửa được) -> User (lưu theo máy tính) -> Workspace -> Folder </strong></p>
+      <p>tạo sao phải là <strong>index.html ?</strong> để tên miền được tự động tải file html</p>
+      <p>tra cứu <a href="https://drive.google.com/drive/folders/1GIdH6XVhmlzEdvIaGZPJkN_2QNf_lYrt">Emmet</a></p>
+      <p><a href="/">/, Go home để về trang chủ</a></p>
+      
+
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+body {
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+.PREFIX {
+    user-select: none;
+}
+.testopacity {
+    opacity: 0.5;
+}
+p { 
+    font-size: 1.17em;
+}
+a {
+    text-decoration: none;
+}
+#testhover:hover {
+    color: green;
+    
+}
+#testactive:active {
+    color: #092170;
+}
+.testlink:link {
+    color: blueviolet;
+}
+.testvis:visited {
+    color: rgb(247, 0, 255);
+}
+.testtarget:target {
+    color: coral;
+}
+.div1 P:first-child {
+    color: orange;
+    margin: 0px;
+}
+.div1 {
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 999px;
+    display: inline-block;
+
+}
+body {
+    margin: 0px;
+}
+.testnot:not(li) {
+    color: green;
+}
+.canchinh {
+    display: inline;
+    padding: 10px 20px;
+    background-color: #00ffba30;
+    display: inline-block;
+    border-radius: 10px;
+    user-select: none;
+
+}
+.canchinh p {
+    color: black;
+}
+.canchinh * {
+    font-weight: 1000;
+}
+#box5 {
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+    outline-offset: 20px;
+    outline-color: #092170;
+    outline-style: solid;
+    margin-left: 30px;
+    margin-top:20px;
+}
+.marginauto {
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+.cssunittest {
+    list-style-type: upper-roman;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cssunit1 {
+    background-color: #ffabba30;
+    border-radius: 10px;
+    padding: 5px 5px;
+    
+}
+.bgi {
+    width: 180px;
+    height: 180px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 15px;
+    display: inline-block;
+
+}
+.check {
+    background-image: url(https://gcs.tripi.vn/public-tripi/tripi-feed/img/474074DJj/hinh-anh-chua-giesu-va-tre-em-full-hd_083336412.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: local;
+    height: 200px;
+    overflow: auto;
+}
+.bgc {
+    background-image: url(https://banthochuadep.vn/wp-content/uploads/2022/12/duc-me-maria-dep-nhat-2.jpg);
+    height: 400px;
+    width: 400px;
+    background-position: 25% 26%;
+    background-clip: content-box;
+    padding: 10px;
+    border: 10px solid #ff0000;
+}
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    .xinchao {
+        color: transparent;
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        -webkit-background-clip: text;
+        background-clip:text;
+    }
+}
+.bgct {
+    margin-top: 20px;
+    background-color: rgb(210, 189, 255);
+}
+/* body {
+    background-image: url(https://th.bing.com/th/id/OIP.gCvQ1vmPVJmrq1nnzM3ZHQHaEo?rs=1&pid=ImgDetMain);
+    background-attachment: fixed;
+} */
+@supports (backdrop-filter: blur(32px)) or (-webkit-backdrop-filter: blur(32px)){
+    .bgrf {
+        background-color: rgb(0,0,0,0.4);
+        height: 100px;
+        -webkit-backdrop-filter: blur(32px) brightness(50%);
+        backdrop-filter: blur(32px);
+}
+}
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+.text {
+    font-variant: small-caps;
+}
+.textudl {
+    text-decoration: underline;
+}
+.textltr {
+    text-decoration: line-through;
+}
+.text1 {
+    text-decoration:overline;
+}
+.textall {
+    text-decoration:overline line-through underline;
+}
+.textover {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis
+}
+.precode {
+    word-break: break-all;
+}
+.content1 img{
+    object-fit: cover;
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+.content1 h3 {
+    margin-bottom: 0px
+}
+.content1 p {
+    margin-top: 0px
+}
+.notification {
+    font-size: 32px;
+    color: #000;
+    position: relative;
+    display: inline-block;
+}
+.notification .badge {
+    position: absolute;
+    top: -4px;
+    right: -10px;
+    color: #fff;
+    background: rgb(241, 26, 26);
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* .menu-2, .menu-1 {
+    display: inline-block;
+} */
+/* .menu li {
+    position: absolute;
+    top: 200px;
+} */
+.none {
+    margin-top: 60px;
+}
+.menu-1 { 
+    background-color: #000;
+    color: #fff;
+    padding: 1px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    right: 0px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    position: absolute;
+    /* top: 20px; */
+    right: 50px;
+}
+.menu {
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+}
